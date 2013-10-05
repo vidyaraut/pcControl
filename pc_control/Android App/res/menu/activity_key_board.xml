@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/AddCommand"
+        android:title="Add Command"
+        android:orderInCategory="100" />
+    <item android:id="@+id/RemoveCommand" android:title="Remove Command"></item>
+    <item android:id="@+id/PropogateCmd" android:title="Propogate Command"></item>
+    <item android:id="@+id/Close" android:title="Close"></item>
+</menu>

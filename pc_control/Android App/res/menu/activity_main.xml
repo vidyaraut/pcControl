@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/KeyBoardSKT" android:title="KeyBoard Shortcuts"></item>
+    <item android:id="@+id/textonfly" android:title="Type On The Fly"></item>
+    <item android:id="@+id/mnu_EnableMouse" android:title="Enable Mouse"></item>
+    <item android:id="@+id/mnu_disableMouse" android:title="Disable Mouse"></item>
+    <item android:id="@+id/mnu_fetchImage" android:title="Fetch Image">
+    </item>
+    <item android:id="@+id/mnuApp_skts" android:title="Open Application"></item><group android:id="@+id/GrpMouse" android:enabled="true" android:visible="true">
+        <item android:id="@+id/mnu_Click" android:title="Click"></item>
+        <item android:id="@+id/mnu_doubleClick" android:title="Double Click"></item>
+        <item android:id="@+id/mnu_RightClick" android:title="Right Click"></item>
+    <item android:id="@+id/mnu_MousePress" android:title="Mouse Press"></item>
+    <item android:id="@+id/mnu_mouseRelease" android:title="Mouse Release"></item>
+</group>
+    
+    
+</menu>

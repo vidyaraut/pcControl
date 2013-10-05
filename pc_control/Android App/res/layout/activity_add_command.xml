@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/addCmd" />
+
+    <ListView
+        android:id="@+id/lVAddCmd"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Empty" />
+
+    <Button
+        android:id="@+id/btnPress"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="@string/Press" />
+
+    <TextView
+        android:id="@+id/tvselectedcmd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Empty" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:text="@string/CmdName" />
+
+    <EditText
+        android:id="@+id/etCmdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSave"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="@string/Save" />
+
+</LinearLayout>
